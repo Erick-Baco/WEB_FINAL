@@ -23,22 +23,22 @@
     <div class="section container center">
         <div class="row">
 
-        <form class="col s12">
+        <form class="col s12" method="post">
 
               <div class="row card-panel">
 
                 <div class="input field col s5">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Nombre de invocador" class="validate" required>
+                    <input type="text" id="nombre" placeholder="Nombre de invocador" class="validate" required maxlength="50">
                 </div>
                 <div class="input field col s7">
                     <label for="apellidos">Apellido:</label>
-                    <input type="text" id="apellido" placeholder="Apellido" class="validate" required>
+                    <input type="text" id="apellido" placeholder="Apellido" class="validate" required maxlength="50">
                 </div>
 
                 <div class="input field col s12">
                     <label for="pais">País:</label>
-                    <input type="text" id="pais" placeholder="Pais de origen" class="validate" required>
+                    <input type="text" id="pais" placeholder="Pais de origen" class="validate" required maxlength="50">
                 </div>
 
                 <div class="input field col s12">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="input field col s12">
                     <label for="campeon">Campeón favorito:</label>
-                    <input type="text" id="campeon" placeholder="Main" class="validate" required>
+                    <input type="text" id="campeon" placeholder="Main" class="validate" required maxlength="20">
                 </div>
 
                 <p>
