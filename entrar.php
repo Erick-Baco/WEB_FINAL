@@ -32,13 +32,13 @@ if (isset($_POST['email']) && isset($_POST['champ_favorito'])) {
 
         if ($row['email'] === $email && $row['champ_favorito'] === $champ_favorito) {
 
-            //echo "Logged in!";
+            echo "Logged in!";
 
             $_SESSION['email'] = $row['email'];
 
             $_SESSION['champ_favorito'] = $row['champ_favorito'];
 
-            //$_SESSION['clave_usuario'] = $row['clave_usuario'];
+            $_SESSION['clave_usuario'] = $row['clave_usuario'];
 
             header("Location: cuenta.php");
 
@@ -46,16 +46,14 @@ if (isset($_POST['email']) && isset($_POST['champ_favorito'])) {
 
         }else{
 
-            echo "credenciales";
-            //header("Location: iniciar_sesion.php?error=Credenciales incorrectas");
+            header("Location: iniciar_sesion.php?error=Credenciales incorrectas");
 
             exit();
 
         }
         }else{
 
-            echo "credenciales";
-            //header("Location: iniciar_sesion.php?error=Credenciales incorrectas");
+            header("Location: iniciar_sesion.php?error=Credenciales incorrectas");
     
             exit();
     

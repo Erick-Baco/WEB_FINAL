@@ -6,8 +6,9 @@
     <title>Inicio Noti LOL</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="shortcut icon" href="/recursos/poro.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="indigo lighten-2" center >
+<body class="indigo lighten-5" center >
 
   <nav class="indigo darken-3">
     <div class="nav-wrapper" >
@@ -15,7 +16,6 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="registro.php">Registro</a></li>
         <li><a href="iniciar_sesion.php">Iniciar sesion</a></li>
-        <li><a href="index.html">Registro</a></li>
       </ul>
     </div>
   </nav>

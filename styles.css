@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto; /* Hace que el contenido principal ocupe todo el espacio disponible */
+}
+
+.page-footer {
+    
+    bottom: 0;
+    width: 100%;
+    /* Otros estilos opcionales para el pie de página */
+}
