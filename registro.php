@@ -10,15 +10,15 @@
 <body class="indigo lighten-2">
 
     <nav class="indigo darken-3">
-        <div class="nav-wrapper" >
-         <h5 class="brand-logo" style="margin-left: 10px;">Noti LOL</h5>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="index.html">Campeones</a></li>
-            <li><a href="index.html">Registro</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="nav-wrapper" >
+        <h5 class="brand-logo" style="margin-left: 10px;">Noti LOL</h5>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="iniciar_sesion.php">Iniciar sesion</a></li>
+          <li><a href="index.html">Registro</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="section container center">
         <div class="row">
@@ -51,12 +51,12 @@
                 </div>
 
                 <p>
-                    <label>
-                      <input type="checkbox" />
-                      <span>Notificaciones</span>
-                    </label>
-                  </p>
-                  <br>
+                  <label>
+                    <input type="checkbox" />
+                    <span>Notificaciones</span>
+                  </label>
+                </p>
+                <br>
                 <button class="btn waves-effect waves-light" type="submit" name="submit">Registrarme</button>
               </div>  
 

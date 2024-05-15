@@ -8,13 +8,13 @@
     <link rel="shortcut icon" href="/recursos/poro.png" type="image/x-icon">
 </head>
 <body class="indigo lighten-2" center >
-  
+
   <nav class="indigo darken-3">
     <div class="nav-wrapper" >
       <h5 class="brand-logo" style="margin-left: 10px;">Noti LOL</h5>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="registro.php">Registro</a></li>
-        <li><a href="index.html">Campeones</a></li>
+        <li><a href="iniciar_sesion.php">Iniciar sesion</a></li>
         <li><a href="index.html">Registro</a></li>
       </ul>
     </div>
