@@ -14,7 +14,7 @@ $insertarDatos = "INSERT INTO usuarios (nombre, apellido, pais, email, champ_fav
 $conexion->query($insertarDatos);
 $conexion->close();
 
-echo "insertado";
+header("Location: cuenta.php");
 
 /*include "./conexion.php";
 mysqli_set_charset($conexion,'utf8');

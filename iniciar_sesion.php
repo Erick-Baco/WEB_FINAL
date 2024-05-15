@@ -26,12 +26,12 @@
             <div class="row card-panel">
                 <div class="input field col s8 offset-m2">
                     <label for="email">Correo electronico:</label>
-                    <input type="text" class="validate" name="email" placeholder="email" requiered>
+                    <input type="text" class="validate" name="email" id="email" placeholder="email" requiered>
                 </div>
                 
                 <div class="input field col s8 offset-m2 ">
                     <label for="email">Campeón favorito:</label>
-                    <input type="text" class="validate" name="champ_favorito" placeholder="Main" requiered max-length="20">
+                    <input type="text" class="validate" name="champ_favorito" id="champ_favorito" placeholder="Main" requiered max-length="20">
                 </div>
                 <br>
                 <button class="btn waves-effect waves-light col s4 offset-m4" type="submit" name="submit">Entrar</button>
@@ -39,6 +39,6 @@
         </form>
     </div>
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
