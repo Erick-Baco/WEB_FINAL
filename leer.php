@@ -25,7 +25,7 @@
       echo '<td><input style="border: 2px solid #aaaa; border-radius: 10px; text-align: center;" type="text" name="champ_favorito" value="'.$row['champ_favorito'].'"></td>';
       echo "<td>" . $row['fecha_registro'] . "</td>";
       echo '<td><button class="waves-effect waves-light btn-small green " type="submit"> Guardar </button></td>';
-      echo '<td><button class="waves-effect waves-light btn-small indigo darken-3" type="submit"> Cancelar </button></td>';
+      echo '<td><button class="waves-effect waves-light btn-small indigo darken-3" type="cancel"> Cancelar </button></td>';
       echo '<input type="hidden" name="clave_usuario" value="'.$row['clave_usuario'].'">';
       echo '</form>';
     } else {
