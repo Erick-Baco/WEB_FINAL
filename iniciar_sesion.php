@@ -24,12 +24,12 @@
     <div class="row center">
         <form action="entrar.php" class="col s12" method="POST">
             <div class="row card-panel">
-                <div class="input field col s8 offset-m2">
+                <div class="input-field col s8 offset-m2">
                     <label for="email">Correo electronico:</label>
                     <input type="text" class="validate" name="email" id="email" placeholder="email" requiered>
                 </div>
                 
-                <div class="input field col s8 offset-m2 ">
+                <div class="input-field col s8 offset-m2 ">
                     <label for="email">Campeón favorito:</label>
                     <input type="text" class="validate" name="champ_favorito" id="champ_favorito" placeholder="Main" requiered max-length="20">
                 </div>

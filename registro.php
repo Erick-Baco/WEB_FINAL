@@ -27,25 +27,25 @@
 
               <div class="row card-panel">
 
-                <div class="input field col s5">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre de invocador" class="validate" required maxlength="50">
+                <div class="input-field col s5">
+                    <label for="nombre" id="input_text">Nombre:</label>
+                    <input type="text" id="input_text" name="nombre" placeholder="Nombre de invocador" class="validate" required data-length="50">
                 </div>
-                <div class="input field col s7">
+                <div class="input-field col s7">
                     <label for="apellido">Apellido:</label>
                     <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="validate" required maxlength="50">
                 </div>
 
-                <div class="input field col s12">
+                <div class="input-field col s12">
                     <label for="pais">País:</label>
                     <input type="text" id="pais" name="pais" placeholder="Pais de origen" class="validate" required maxlength="50">
                 </div>
 
-                <div class="input field col s12">
+                <div class="input-field col s12">
                     <label for="email">Correo electrónico:</label>
                     <input type="text" id="email" name="email" placeholder="Email" class="validate" required>
                 </div>
-                <div class="input field col s12">
+                <div class="input-field col s12">
                     <label for="champ_favorito">Campeón favorito:</label>
                     <input type="text" id="champ_favorito" name="champ_favorito" placeholder="Main" class="validate" required maxlength="20">
                 </div>

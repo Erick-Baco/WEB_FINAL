@@ -1,9 +1,10 @@
 <?php 
+
 session_start();
 
 if (isset($_SESSION['email']) && isset($_SESSION['champ_favorito'])) {
 
-?>
+ ?>
 
 
 <!DOCTYPE html>
@@ -16,7 +17,9 @@ if (isset($_SESSION['email']) && isset($_SESSION['champ_favorito'])) {
     <link rel="shortcut icon" href="/recursos/poro.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="indigo lighten-5" center>
+
 <nav class="indigo darken-3">
     <div class="nav-wrapper" >
     <h5 class="brand-logo" style="margin-left: 10px;">Noti LOL</h5>
@@ -67,6 +70,7 @@ if (isset($_SESSION['email']) && isset($_SESSION['champ_favorito'])) {
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>
 
 
@@ -79,4 +83,5 @@ if (isset($_SESSION['email']) && isset($_SESSION['champ_favorito'])) {
      exit();
 
 }
-?>
+
+ ?>
