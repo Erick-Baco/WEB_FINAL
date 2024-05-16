@@ -10,14 +10,16 @@
 </head>
 <body class="indigo lighten-5">
     
-<nav class="indigo darken-3">
-    <div class="nav-wrapper" >
-    <h5 class="brand-logo" style="margin-left: 10px;">Noti LOL</h5>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="registro.php">Registro</a></li>
+<nav class="nav-extended indigo darken-3">
+  <div class="nav-wrapper">
+    <h5 class="brand-logo">Noti-LOL</h5>
+  </div>
+  <div class="nav-content">
+    <ul class="tabs tabs-transparent">
+      <li class="tab"><a class="active" href="index.php">Inicio</a></li>
+      <li class="tab"><a class="active" href="registro.php">Registro</a></li>
     </ul>
-    </div>
+  </div>
 </nav>
 
 <div class="section container center">
